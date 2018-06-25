@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Literary Club</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="C:\Users\a\Desktop\HomePage.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sogoe+UI" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sirin+Stencil" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!--<center><img src="http://www.iiti.ac.in/images/logo.png" alt="IIT Indore" class="image2"></center>-->
+	<div class="topnav" id="myTopnav">
+		<a href="HomePage.html" class="tablink" onClick="linkActive(event)" style="font-family:'Sirin Stencil'; padding:0px;"><img class="image1" src="http://people.iiti.ac.in/~studentgym/pages/img/cult-clubs/card/lit-club.png" alt="Club Logo"></a>
+		<!--<img class="image1" src="http://mespattambi.org/clubs/literary%20logo.jpg" alt="Club Logo">
+		<a href="HomePage.html" class="tablink" onClick="linkActive(event)" style="font-family:'Sirin Stencil';"><i class="fa fa-home"></i> Home</a>-->
+		<a href="#events" class="tablink active" onClick="linkActive(event)" style="font-family:'Sirin Stencil';"><i class="fa fa-book"></i> Events</a>		<!--<div class="dropdown">
+    		<button class="tablink dropbtn" onClick="linkActive(event)"><i class="fa fa-book"></i> Events <i class="fa fa-caret-down"></i>	
+    		</button>
+    		<div class="dropdown-content">
+      			<a href="#">Ransence</a>
+      			<a href="#">Cook A Story</a>
+      			<a href="#">Pottermania</a>
+      			<a href="#">Cache of Lexis</a>
+      			<a href="#">Codex Inspicio</a>
+      			<a href="#">Spell Bee</a>
+    		</div>
+  		</div>-->
+		<a href="People.html" class="tablink" onClick="linkActive(event)" style="font-family:'Sirin Stencil';"><i class="fa fa-user"></i> People</a>
+		<a href="#contact" style="font-family:'Sirin Stencil';"><i class="fa fa-phone"></i> ContactUs</a>
+		<a href="javascript:void(0);" class="icon" onClick="myFunction()"><i class="fa fa-bars"></i></a>		
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<center><h1 style="font-family:'IM Fell English SC'; color:#9730DB; font-size:40px;">Our Events</h1></center>
+	<div class="w3-row-padding" style="margin:30px 16px 16px 45px; z-index:0;">
+  <div class="w3-col m4">
+    <div onclick="openModal1();currentDiv(1)">
+    <div class="shaky w3-card-4 w3-hover-sepia" style="height:200px;width:300px; background-color: teal; cursor:pointer;">
+		<header class="w3-container" style="background-color: #9370DB; color:white; text-align: center; font-family: 'Sirin Stencil'; padding-top:12px;">
+  			<h2>CODEX INSPICIO</h2>
+		</header>
+		<br>
+		<div class="w3-container" style="color:white; font-family: 'Ubuntu'; font-size:19px;">
+  			<p>A book review competition on the book FAHRENHEIT 451 by RAY BRADURY</p>
+		</div>
+	</div>
+  </div>
+  </div>
+  <div class="w3-col m4">
+    <div onclick="openModal3();currentDiv(3)">
+    <div class="shaky w3-card-4 w3-hover-sepia" style="height:200px;width:300px; background-color: teal; cursor:pointer;">
+		<header class="w3-container" style="background-color: #9370DB; color:white; text-align: center; font-family: 'Sirin Stencil'; padding-top:12px;">
+  			<h2>CACHE OF LEXIS</h2>
+		</header>
+		<br>
+		<div class="w3-container" style="color:white;font-family: 'Ubuntu'; font-size:19px;">
+  			<p>An event with the objective to crack codes, decode puzzles, solving sudokus and many more!</p>
+		</div>
+	</div>
+  </div>
+  </div>
+  <div class="w3-col m4">
+    <div onclick="openModal2();currentDiv(2)">
+    <div class="shaky w3-card-4 w3-hover-sepia" style="height:200px;width:300px; background-color: teal; cursor:pointer;">
+		<header class="w3-container" style="background-color: #9370DB; color:white; text-align: center; font-family: 'Sirin Stencil'; padding-top:12px;">
+  			<h2>COOK A STORY</h2>
+		</header>
+		<br>
+		<div class="w3-container" style="color:white; font-family: 'Ubuntu'; font-size:19px;">
+  			<p>Cooking a short story up, given a set of three visuals</p>
+		</div>
+	</div>
+  </div>
+  </div>
+</div>
+<div class="w3-row-padding" style="margin:30px 16px 16px 45px; z-index: 0;">
+  <div class="w3-col m4">
+    <div onclick="openModal4();currentDiv(4)">
+    <div class="shaky w3-card-4 w3-hover-sepia" style="height:200px;width:300px; background-color: teal; cursor:pointer;">
+		<header class="w3-container" style="background-color: #9370DB; color:white; text-align: center; font-family: 'Sirin Stencil'; padding-top:12px;">
+  			<h2>WORD WARS</h2>
+		</header>
+		<br>
+		<div class="w3-container" style="color:white; font-family: 'Ubuntu'; font-size:19px;">
+  			<p>The one and only exclusive debate competition of IIT Indore</p>
+		</div>
+	</div>
+  </div>
+  </div>
+  <div class="w3-col m4">
+    <div onclick="openModal5();currentDiv(5)">
+    <div class="shaky w3-card-4 w3-hover-sepia" style="height:200px;width:300px; background-color: teal; cursor:pointer;">
+		<header class="w3-container" style="background-color: #9370DB; color:white; text-align: center; font-family: 'Sirin Stencil'; padding-top:12px;">
+  			<h2>G.O.T. QUIZ</h2>
+		</header>
+		<br>
+		<div class="w3-container" style="color:white;font-family: 'Ubuntu'; font-size:19px;">
+  			<p>A quiz competition based on the T.V. series of the Game Of Thrones</p>
+		</div>
+	</div>
+  </div>
+  </div>
+  <div class="w3-col m4">
+    <div onclick="openModal6();currentDiv(6)">
+    <div class="shaky w3-card-4 w3-hover-sepia" style="height:200px;width:300px; background-color: teal; cursor:pointer;">
+		<header class="w3-container" style="background-color: #9370DB; color:white; text-align: center; font-family: 'Sirin Stencil'; padding-top:12px;">
+  			<h2>RANSENSE</h2>
+		</header>
+		<br>
+		<div class="w3-container" style="color:white; font-family: 'Ubuntu'; font-size:19px;">
+  			<p>IIT Indore's creative writing competition</p>
+		</div>
+	</div>
+  </div>
+  </div>
+</div>
+<div id="myModal1" class="w3-modal w3-animate-left w3-black" style="position:fixed; background-color: black; background:url(https://hdbackgroundspot.com//storage/upload/black-abstract-background/black-abstract-background-5.jpg); background-repeat: no-repeat; animation-duration:0.7s;z-index:1000;">
+ <span class="w3-text-white w3-xxxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal1()" style="cursor:pointer">×</span>
+ <div class="w3-modal-content">
+ 	<div style="text-align:justify; font-size:25px; padding:20px; position:absolute;">
+ 	<h1 style="font-family:'Sirin Stencil';"><center>CODEX INSPICIO</center></h1>
+ 	<div style="font-family: 'Special Elite';">Codex Inspicio is a book review competition on the book Farhenheit 451 by Ray Bradury. There is no particular constraint on the pattern of writing the review except that the word limit should be 800. You can write up your views about the theme of the book, or about the characters in the book and their traits. The review is then judged on the basis in which the review is written and upon your understanding of the story. There are also prices for this event worth Rs.1500 for the winners.</div>
+  </div>
+ </div> <!-- End modal content -->
+</div> <!-- End modal -->
+<div id="myModal2" class="w3-modal w3-animate-opacity w3-black" style="position: fixed; background-color: black; background:url(https://hdbackgroundspot.com//storage/upload/black-abstract-background/black-abstract-background-4.jpg); background-repeat: no-repeat; animation-duration: 1 
+s;z-index:1000;">
+ <span class="w3-text-white w3-xxxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal2()" style="cursor:pointer">×</span>
+ <div class="w3-modal-content">
+ 	<div style="text-align:justify; font-size:25px;padding:20px; position:absolute;">
+ 	<h1 style="font-family:'Sirin Stencil';"><center>COOK A STORY</center></h1>
+ 	<div style="font-family: 'Special Elite';">
+ 	In this event, you are provided with a set of three visuals from which you need to cook a short story up. But there are rules and limitations! Firstly, the story must be an original composition. Ahough it can belong to any genre but there must be a clear connection between the story and all the three visuals provided and the story must have a title. There is no word limit. There are also prizes for this event worth Rs.1500 for the winners.</div>
+  </div>
+ </div> <!-- End modal content -->
+</div> <!-- End modal -->
+<div id="myModal3" class="w3-modal w3-animate-zoom w3-black" style="background-color: black; background:url(http://hd-wallpapersfd.info/wp-content/uploads/HTML/Black-Color/Black-Color2.jpg); background-repeat: no-repeat;z-index:1000;">
+ <span class="w3-text-white w3-xxxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal3()" style="cursor:pointer">×</span>
+ <div class="w3-modal-content">
+ 	<div style="text-align:justify; font-size:25px; padding:20px; position:absolute;">
+ 	<h1 style="font-family:'Sirin Stencil';"><center>CACHE OF LEXIS</center></h1>
+ 	<div style="font-family: 'Special Elite';">A one-of-a-kind event which requires you to wipe the cobwebs of your brain and exercise your mental faculties like you haven't done since your JEE! This event has a large participation every year. The objective is to crack codes, decode puzzles and connect all the dots, to reach the ultimate answer. If you are someone who loves solving problems, have keen observation skills and who can deduce answers to the most misleading problems; this is the chance for you to showcase your abilities. Of course there are hints everywhere around, it's just how close you look.</div>
+  </div>
+ </div> <!-- End modal content -->
+</div> <!-- End modal -->
+<div id="myModal4" class="w3-modal w3-animate-zoom w3-black" style="position:fixed; background:url(https://i.pinimg.com/originals/4f/6d/05/4f6d052bb1b26150115888ea06d4c106.jpg); background-repeat: no-repeat;z-index:1000;">
+ <span class="w3-text-white w3-xxxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal4()" style="cursor:pointer">×</span>
+ <div class="w3-modal-content">
+ 	<div style="text-align:justify; font-size:25px; padding:20px; position:absolute;">
+ 	<h1 style="font-family:'Sirin Stencil';"><center>WORD WARS</center></h1>
+ 	<div style="font-family: 'Special Elite';">Word Wars is the debating competition of IIT Indore. This event is a great opportunity for anyone who wants to improve his/her debating skills and enhance his/her performance in public speaking. But hold on because there are certain rules to follow. For each debate, there shall be 2 teams of 3 speakers each and the topic of the debate is given on the spot. The team in support of the topic is called the 'Government' and that opposes the topic is called the 'Opposition'. Each speaker is given 4 mins to speak in the alternaing order. First speaker is from the 'Government', then from the 'Opposition' and so on. Short questions and interjections are allowed. At the end, the winner team is given a prize money worth Rs.1500.</div>
+  </div>
+ </div> <!-- End modal content -->
+</div>
+<div id="myModal5" class="w3-modal w3-animate-left w3-black" style="position:fixed; background-color: black; background:url(https://www.wallpaperup.com/uploads/wallpapers/2014/01/09/220941/b478b018dc6d63c32abdb05e76d79767.jpg); background-repeat: no-repeat; animation-duration:0.7s;z-index:1000;">
+ <span class="w3-text-white w3-xxxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal5()" style="cursor:pointer">×</span>
+ <div class="w3-modal-content">
+ 	<div style="text-align:justify; font-size:25px; padding:20px; position:absolute;">
+ 	<h1 style="font-family:'Sirin Stencil';"><center>GAME OF THRONES QUIZ </center></h1>
+ 	<div style="font-family: 'Special Elite';">A quiz competition based on the popular T.V. series of the Game Of Thrones. Held after the gruelling season finalle of this T.V. series, it was indeed a most exciting and thrilling competition of the year. The students were required to register in teams of 3. And of course, winners got to take home prizes worth Rs.1.5K.</div>
+  </div>
+ </div> <!-- End modal content -->
+</div>
+<div id="myModal6" class="w3-modal w3-animate-opacity w3-black" style="position:fixed; background-color: black; background:url(http://bodybybrent.com/wp-content/uploads/2012/03/Black-Background-Metal-2560x1600-by-Freeman2.jpg); background-repeat: no-repeat; animation-duration:1s;z-index:1000;">
+ <span class="w3-text-white w3-xxxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal6()" style="cursor:pointer">×</span>
+ <div class="w3-modal-content">
+ 	<div style="text-align:justify; font-size:25px; padding:20px; position:absolute;">
+ 	<h1 style="font-family:'Sirin Stencil';"><center>RANSENSE</center></h1>
+ 	<div style="font-family: 'Special Elite';">Ransense is a creative writing competition of IIT Indore. So drill into the creative side of your mind and pick up your quills to carve a brand new piece of writing from scratch. A beginning paragraph is given to you and you will have to finish the story or you can even write a poem.</div>
+  </div>
+ </div> <!-- End modal content -->
+</div>
+	<br>
+	<footer class="footer" id="contact" style="font-family:'Ubuntu'">
+	<div class="row">
+		<div class="col-4"><h5 style="text-align:left; font-size:16px; font-weight:normal; line-height: 25px;">Literary Club, Student Gymkhana<br>IIT Indore, Khandwa Road, Simrol<br>Indore, M.P., India - 453552</h5></div>
+		<div class="col-4"><h5 style="text-align:center; font-size:16px; font-weight:normal; line-height: 25px;">Follow us on<br>
+		<a href="https://www.facebook.com/literaryiiti" target="_blank"><span class="fa-stack fa-lg">
+  			<i class="fa fa-circle-thin fa-stack-2x"></i>
+  			<i class="fa fa-facebook fa-stack-1x"></i>
+		</span></a>
+		<br>
+		Mail Id: litraryclub@iiti.ac.in
+		</div>
+		<div class="col-4"><h5 style="text-align:right; font-size:16px; font-weight:normal; line-height: 25px;">&copy; Literary Club, IIT Indore<br>Designed and maintained by:<br> Ayush Kumar Shah</h5></h5>
+	</div>
+</footer>
+	<script>
+		function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+	</script>
+	<script>
+	function linkActive(evt){
+		var tablink=document.getElementsByClassName("tablink");
+		for (i = 0; i < tablink.length; i++) {
+        tablink[i].className = tablink[i].className.replace(" active", "");
+    }
+    	evt.currentTarget.className+=" active";
+	}
+</script>
+<script>
+function openModal1() {
+  document.getElementById('myModal1').style.display = "block";
+}
+
+function closeModal1() {
+  document.getElementById('myModal1').style.display = "none";
+
+}
+function openModal2() {
+  document.getElementById('myModal2').style.display = "block";
+}
+
+function closeModal2() {
+  document.getElementById('myModal2').style.display = "none";
+}
+function openModal3() {
+  document.getElementById('myModal3').style.display = "block";
+}
+
+function closeModal3() {
+  document.getElementById('myModal3').style.display = "none";
+}
+function openModal4() {
+  document.getElementById('myModal4').style.display = "block";
+}
+
+function closeModal4() {
+  document.getElementById('myModal4').style.display = "none";
+}
+function openModal5() {
+  document.getElementById('myModal5').style.display = "block";
+}
+
+function closeModal5() {
+  document.getElementById('myModal5').style.display = "none";
+}
+function openModal6() {
+  document.getElementById('myModal6').style.display = "block";
+}
+
+function closeModal6() {
+  document.getElementById('myModal6').style.display = "none";
+}
+function openModal4() {
+  document.getElementById('myModal4').style.display = "block";
+}
+
+function closeModal4() {
+  document.getElementById('myModal4').style.display = "none";
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<script>
+$(function(){
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1500, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+  });</script>
+</body>
+</html>
